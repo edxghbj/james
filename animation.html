@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .anime{
+            padding: 10px;
+            background-color: red;
+            width: 200px;
+            /*animation-name: feyi;
+            animation-duration: 3s;
+            animation-timing-function: ease;
+            animation-delay: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;*/
+            animation: feyi 2s linear 3s infinite alternate-reverse;
+        }
+        @keyframes feyi{
+            from{
+                background-color: navy;
+                color:antiquewhite;
+                margin-left: 0px;
+            }
+            to{
+                background: yellow;
+                color: red;
+                margin-left: 70px;
+            }
+        }
+        .coco{
+            text-decoration: none;
+            color: green;
+            font-size: 20px;
+            text-transform: uppercase;
+            padding: 30px;
+            margin: 10px 10px;
+            transition: all 3s ease-in-out 0s ;
+            transform: translate(50rem, 50rem);
+            transform: rotate(90deg);
+            transform: scale(0.5);
+            transition: skew(20deg);
+            
+        }
+        .coco:hover{
+            background: blue;
+            padding-left: 10px;
+            color: white;
+        }
+        .fty{
+            height: 100px;
+            color: white;
+            padding: 150px;
+            
+            background: repeating-linear-gradient(20deg, red 10%, green 20%);
+        }    
+        p{
+            font-size: 80px;
+            text-transform: uppercase;
+        }
+        .rty{
+            height: 100px;
+            color: white;
+            padding: 150px;
+            animation: james 5s ease 0s infinite normal;
+        }
+
+        @keyframes james{
+            0%{
+                background:repeating-radial-gradient(circle, red 10%, green 15%);
+            }
+            10%{ 
+                background: repeating-radial-gradient(circle, blue 10%, yellow 20%);
+            }
+            20%{
+                background: repeating-radial-gradient(circle, purple 10%, white 25%);
+            }    
+            50%{
+                background: repeating-radial-gradient(circle, rgb(255, 82, 82) 10%, darkblue 30%);
+            }
+            100%{
+                background: repeating-radial-gradient(circle, rgb(0, 128, 171) 10%, brown 35%);
+            }
+        }    
+        
+    </style>
+</head>
+<body>
+    <div class="anime">
+        <ul>
+            <li>james</li>
+            <li>kayode</li>
+            <li>idenyi</li>
+            <li>charles</li>
+        </ul>
+    </div>
+    <p class="coco">gsquare communications</p>
+    <p class="fty">
+        tgdtddyudyu
+    </p>
+    <p class="rty">
+        james Kayode Olasko
+    </p>
+
+</body>
+</html>

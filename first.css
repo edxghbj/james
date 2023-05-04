@@ -1,0 +1,25 @@
+/* ul{
+    background: rgb(2, 236, 18);
+    color:antiquewhite;
+} */
+a:link{
+    text-decoration: none;
+    margin: 0px 5px;
+    text-transform: uppercase;
+}
+a:visited{
+    color:blue;
+    background-color: grey;  
+}
+a:hover{
+    color: rgb(241, 168, 21);
+    background-color: blue;
+}
+a:active{
+    color: gray;
+    background-color: blue;
+    border:2px groove gold
+}
+li{
+    list-style-type: square;
+}
